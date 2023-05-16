@@ -1,6 +1,6 @@
 const form = document.getElementById("form");
-form.addEventListener("submit", function (someForm) {
-  const data = new FormData(this);
+form.addEventListener("submit",
+    function (form) {
   const myData = {};
   for (let i = 0; i < form.elements.length; i++) {
     let myElements = form.elements[i];
